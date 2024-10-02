@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<configuration>
+
+	<appender name="STDOUT"
+		class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d %-5level [%thread] %logger{50}: %msg%n</pattern>
+		</encoder>
+		<!-- this quadruples logging throughput -->
+		<immediateFlush>false</immediateFlush>
+	</appender>
+
+	<logger name="org.ehcache"                  	  level="WARN"  />
+	<logger name="com.zaxxer.hikari"                  level="WARN"  />
+	<logger name="org.hibernate"                      level="WARN"  />
+	<logger name="org.springframework"                level="WARN"  />
+	<logger name="org.hibernate.stat"                 level="WARN"  />
+	<logger name="org.hibernate.SQL"                  level="WARN" />
+	<logger name="org.hibernate.type"                                                   level="WARN"  />
+	<logger name="org.hibernate.type.descriptor.sql"                                    level="WARN" />
+	<logger name="org.hibernate.engine.internal.StatisticalLoggingSessionEventListener" level="WARN" />
+	<logger name="org.hibernate.engine.jdbc.batch.internal.BatchingBatch"               level="WARN" />
+	<logger name="org.ehcache.core"                   level="WARN"  />
+	<logger name="org.ehcache.jsr107"                 level="WARN"  />
+	<!-- https://docs.spring.io/spring-framework/docs/current/reference/html/testing.html#testcontext-ctx-management-caching -->
+	<logger name="org.springframework.test.context.cache"                 level="WARN"  />
+	<logger name="org.springframework.test.context.support"               level="WARN"  />
+
+	<logger name="uk.co.orusmorlans.libros" level="DEBUG" />
+
+	<root level="DEBUG">
+		<appender-ref ref="STDOUT" />
+	</root>
+
+</configuration>
