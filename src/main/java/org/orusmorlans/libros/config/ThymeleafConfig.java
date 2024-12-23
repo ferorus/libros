@@ -1,4 +1,4 @@
-package uk.co.orusmorlans.libros.config;
+package org.orusmorlans.libros.config;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
@@ -10,8 +10,8 @@ import org.thymeleaf.spring6.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.templatemode.TemplateMode;
 import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver;
 
-import uk.co.orusmorlans.libros.service.PdfService;
-import uk.co.orusmorlans.libros.service.PdfServiceImpl;
+import org.orusmorlans.libros.service.PdfService;
+import org.orusmorlans.libros.service.PdfServiceImpl;
 
 @Configuration
 public class ThymeleafConfig {

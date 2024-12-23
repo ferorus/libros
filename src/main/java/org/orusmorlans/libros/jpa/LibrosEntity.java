@@ -1,4 +1,4 @@
-package uk.co.orusmorlans.libros.jpa;
+package org.orusmorlans.libros.jpa;
 
 import java.io.Serializable;
 

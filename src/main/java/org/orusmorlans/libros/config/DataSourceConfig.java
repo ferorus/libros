@@ -1,4 +1,4 @@
-package uk.co.orusmorlans.libros.config;
+package org.orusmorlans.libros.config;
 
 import com.zaxxer.hikari.HikariDataSource;
 import jakarta.annotation.PostConstruct;

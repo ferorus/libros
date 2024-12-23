@@ -1,4 +1,4 @@
-package uk.co.orusmorlans.libros.config;
+package org.orusmorlans.libros.config;
 
 import java.io.IOException;
 import java.time.ZoneId;
@@ -28,8 +28,8 @@ import com.cosium.spring.data.jpa.entity.graph.repository.support.EntityGraphJpa
 
 import lombok.extern.slf4j.Slf4j;
 
-import uk.co.orusmorlans.libros.jpa.LibrosRepository;
-import uk.co.orusmorlans.libros.jpa.LibrosEntity;
+import org.orusmorlans.libros.jpa.LibrosRepository;
+import org.orusmorlans.libros.jpa.LibrosEntity;
 
 @Configuration
 @Import({DataSourceConfig.class})

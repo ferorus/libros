@@ -1,4 +1,4 @@
-package uk.co.orusmorlans.libros;
+package org.orusmorlans.libros;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package uk.co.orusmorlans.libros;
+package org.orusmorlans.libros;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package uk.co.orusmorlans.libros.jpa;
+package org.orusmorlans.libros.jpa;
 
 import java.util.Map;
 import java.util.Optional;
@@ -13,7 +13,7 @@ import org.springframework.data.repository.query.QueryByExampleExecutor;
 
 import com.cosium.spring.data.jpa.entity.graph.repository.EntityGraphQuerydslPredicateExecutor;
 
-import uk.co.orusmorlans.libros.jpa.LibrosEntity;
+import org.orusmorlans.libros.jpa.LibrosEntity;
 
 //https://github.com/Cosium/spring-data-jpa-entity-graph/blob/master/doc/MAIN.md
 @NoRepositoryBean

@@ -1,4 +1,4 @@
-package uk.co.orusmorlans.libros.controller;
+package org.orusmorlans.libros.controller;
 
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
@@ -27,7 +27,7 @@ import org.springframework.ui.Model;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
-import uk.co.orusmorlans.libros.service.PdfService;
+import org.orusmorlans.libros.service.PdfService;
 
 @Controller
 @Slf4j

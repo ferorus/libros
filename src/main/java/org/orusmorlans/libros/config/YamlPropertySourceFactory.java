@@ -1,4 +1,4 @@
-package uk.co.orusmorlans.libros.config;
+package org.orusmorlans.libros.config;
 
 import java.io.IOException;
 import java.util.Properties;
